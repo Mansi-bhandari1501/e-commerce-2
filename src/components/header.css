@@ -1,0 +1,31 @@
+.topmost-header {
+    /* display: inline-flex; */
+    height: 38px;
+    padding: 9px 100px 9px 800px;
+    /* justify-content: flex-end; */
+    /* align-items: flex-start; */
+    /* gap: 425px; */
+    /* flex-shrink: 0; */
+    background-color: black;
+}
+
+.typo-topmost-header {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-bar {
+    display: flex;
+    width: 1240px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+ul {
+    display: flex;
+}
