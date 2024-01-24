@@ -18,7 +18,7 @@ function App() {
       <Route path='/frontpage' element={<Section1 />}/>
 
      </Routes>
-     {/* <Footer /> */}
+     <Footer />
     </div>
   );
 }
