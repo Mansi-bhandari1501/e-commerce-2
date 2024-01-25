@@ -30,15 +30,16 @@
 .container {
     display: flex;
     height: 70px;
+    justify-content: center;
 }
 
 .nav-bar {
     display: flex;
-    width: 1240px;
+    /* width: 1240px; */
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin-left: 10%
+    margin-left: 10px;
 }
 
 .nav-bar-center {
@@ -94,7 +95,7 @@
     top: 12px;
     /* right: 182px; */
     color: #00000066;
-    left: 10px;
+    left: 15px;
 }
 .nav-logo{
     padding-top: 10px;

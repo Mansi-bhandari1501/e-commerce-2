@@ -1,9 +1,11 @@
 import React from "react";
 // import Cards from "./cards";
 import "./footer.css";
+import Footer2 from "./footer2";
 
 function Footer() {
   return (
+    <>
     <div className="footer">
       {/* <div className="customer-review">
         <h2>OUR HAPPY CUSTOMERS</h2>
@@ -142,13 +144,10 @@ function Footer() {
             </ul>
           </div>
         </div>
-      <div className="last">
-      <hr />
-      
-      <h4 className="copy-rights">Shop.co © 2000-2023, All Rights Reserved</h4>
+        </div>
+      <Footer2 />
       </div>
-    </div>
-    </div>
+    </>
   );
 }
 export default Footer;
