@@ -56,8 +56,13 @@ function Signup() {
         }
         else{
             console.log("data added successfully");
-            localStorage.setItem("User",JSON.stringify([...data,inpval]));
-            alert("Successfully sign-up");
+            
+            let data1 = []
+            data1.push(inpval)
+             let prevuser= JSON.parse(localStorage.getItem("User"));
+            if(prevuser) data1 = [...prevuser, ...data1]
+            console.log(data1)
+                localStorage.setItem("User",JSON.stringify(data1));
         }
     }
 
