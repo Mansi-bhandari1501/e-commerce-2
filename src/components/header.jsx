@@ -1,12 +1,18 @@
 import React from "react";
 import "./header.css";
+// import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
 function Header() {
+  // const history = useNavigate();
   return (
     <>
       <div className="topmost-header">
         <div>
           <h6 className="typo-topmost-header">
-            Sign up and get 20% off to your first order.<span>Sign Up Now</span>{" "}
+            Sign up and get 20% off to your first order.<span>
+                  <NavLink to="/signup"> Sign-up</NavLink>
+                </span>{" "}
           </h6>
         </div>
       </div>
