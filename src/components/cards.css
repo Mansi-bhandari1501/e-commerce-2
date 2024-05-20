@@ -6,9 +6,10 @@
 .Itemsss{
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 18px;
     margin-left:12vw ;
     margin-bottom: 5vh;
+    width: 1110px;
 }
 /* .css-bhp9pd-MuiPaper-root-MuiCard-root{
     
@@ -33,7 +34,7 @@
     height: 150px;
 }
 .item-url{
-    width: 209px;
+    width: 230px;
     height: 210px;
     object-fit: cover;
     border-radius: 20px;
